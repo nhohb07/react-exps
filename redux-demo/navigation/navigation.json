@@ -1,0 +1,33 @@
+{
+  "incomplete_results": false,
+  "navItems": [
+    {
+      "linkTo": "/about",
+      "component": "about/About",
+      "childNodes": [
+        {
+          "linkTo": "/proforma",
+          "component": "about/ProForma"
+        }
+      ]
+    },
+    {
+      "linkTo": "/login",
+      "component": "login/Login"
+    },
+    {
+      "linkTo": "/none",
+      "component": "misc/RestrictPage",
+      "childNodes": [
+        {
+          "linkTo": "/users",
+          "component": "user/UsersPage"
+        },
+        {
+          "linkTo": "/repos",
+          "component": "repo/ReposPage"
+        }
+      ]
+    }
+  ]
+}

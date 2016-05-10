@@ -1,0 +1,47 @@
+{
+  "name": "leporu-version-2.0",
+  "version": "2.0.0-alpha",
+  "description": "Leporu Version 2.0 - ReactJS",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node-dev server/babel-server.js"
+  },
+  "author": "Leporu Inc.",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "classnames": "^2.2.0",
+    "express": "^4.13.3",
+    "fixed-data-table": "^0.5.0",
+    "history": "^1.13.0",
+    "isomorphic-fetch": "^2.1.1",
+    "lodash": "^3.10.1",
+    "react": "^0.14.3",
+    "react-dom": "^0.14.3",
+    "react-redux": "^4.0.0",
+    "react-router": "^1.0.2",
+    "redux": "^3.0.4",
+    "redux-logger": "^2.0.4",
+    "redux-thunk": "^1.0.0"
+  },
+  "devDependencies": {
+    "babel": "^5.8.29",
+    "babel-core": "^5.8.33",
+    "babel-eslint": "^4.1.5",
+    "babel-loader": "^5.3.2",
+    "eslint": "^1.9.0",
+    "eslint-config-airbnb": "^1.0.0",
+    "eslint-loader": "^1.1.1",
+    "eslint-plugin-react": "^3.8.0",
+    "file-loader": "^0.8.4",
+    "raw-loader": "^0.5.1",
+    "redbox-react": "^1.1.1",
+    "rimraf": "^2.4.3",
+    "stats-webpack-plugin": "^0.2.2",
+    "style-loader": "^0.13.0",
+    "url-loader": "^0.5.6",
+    "webpack": "^1.12.4",
+    "webpack-dev-middleware": "^1.2.0",
+    "webpack-hot-middleware": "^2.4.1"
+  }
+}
